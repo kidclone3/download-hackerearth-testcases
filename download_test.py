@@ -12,10 +12,10 @@ with open('example.html', 'r') as f:
         arr.append(link.get('href').split('?')[0])
 
     print(arr)
-    n = len(arr)//3
+    n = len(arr)//2
     for i in range(n):
-        url1 = arr[i*3]
-        url2 = arr[i*3+2]
+        url1 = arr[i*2]
+        url2 = arr[i*2+1]
         print(url1, url2)
         wget.download(url1, f'data/i{i+1:02d}.txt')
         wget.download(url2, f'data/o{i+1:02d}.txt')
