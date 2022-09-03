@@ -22,7 +22,7 @@ with open('example.html', 'r') as f:
     if len(filename) == 0:
         filename = "data"
 
-    os.mkdir(filename)    
+    os.mkdir(f'downloaded/{filename}')    
     
     n = len(input)
     for i in range(n):
@@ -34,6 +34,6 @@ with open('example.html', 'r') as f:
         wget.download(url2, f'downloaded/{filename}/o{i+1:02d}.txt')
     print()
     print("DONE!!!")
-    shutil.make_archive(filename, 'zip', filename)
+    shutil.make_archive(f'downloaded/{filename}', 'zip', f'downloaded/{filename}')
     print("COMPRESS DONE!!!")
 # https://he-s3.s3.amazonaws.com/media/hackathon/march-circuits-22/problems/0fc497feab7911ec.txt
