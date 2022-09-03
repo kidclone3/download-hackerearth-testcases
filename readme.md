@@ -12,7 +12,7 @@ Vì tool được viết ra 1 cách rất cơ bản bằng python, nên đọc c
 5. Ở thẻ \<tbody\>, copy html
 ![plot](imgs/img2.png)
 6. Chọn file `example.html`, paste nội dung vừa copy vào đấy.
-7. Chạy file `download_test.py`. Các test sẽ nằm ở folder `data`.
-(nếu đã tồn tại folder này thì xoá trước khi chạy)
+7. Chạy file `download_test.py`. Chương trình sẽ hỏi tên của bài. Nếu để trống thì sẽ đặt tên là `data`, ngược lại sẽ tự động nén thành file `Tên file.zip`
+Các test sẽ nằm ở folder `Tên file`.
+(nếu đã tồn tại folder này thì cần xoá trước khi chạy)
 ![plot](imgs/img3.png)
-8. Nén file lại, sau đấy kéo thả vào Notion là xong
