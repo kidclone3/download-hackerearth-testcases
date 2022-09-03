@@ -35,4 +35,5 @@ with open('example.html', 'r') as f:
     print()
     print("DONE!!!")
     shutil.make_archive(filename, 'zip', filename)
+    print("COMPRESS DONE!!!")
 # https://he-s3.s3.amazonaws.com/media/hackathon/march-circuits-22/problems/0fc497feab7911ec.txt
