@@ -30,8 +30,8 @@ with open('example.html', 'r') as f:
         url2 = output[i]
         print(url1, url2)
         
-        wget.download(url1, f'{filename}/i{i+1:02d}.txt')
-        wget.download(url2, f'{filename}/o{i+1:02d}.txt')
+        wget.download(url1, f'downloaded/{filename}/i{i+1:02d}.txt')
+        wget.download(url2, f'downloaded/{filename}/o{i+1:02d}.txt')
     print()
     print("DONE!!!")
     shutil.make_archive(filename, 'zip', filename)
