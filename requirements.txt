@@ -1,0 +1,4 @@
+pync
+lxml
+bs4
+wget

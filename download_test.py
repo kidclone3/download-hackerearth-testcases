@@ -3,6 +3,7 @@ import re
 import wget
 import os
 import shutil
+import pync
 
 filename = input("File name = ")
 print(filename)
@@ -35,5 +36,5 @@ with open('example.html', 'r') as f:
     print()
     print("DONE!!!")
     shutil.make_archive(f'downloaded/{filename}', 'zip', f'downloaded/{filename}')
-    print("COMPRESS DONE!!!")
+    pync.notify("COMPRESS DONE!!!")
 # https://he-s3.s3.amazonaws.com/media/hackathon/march-circuits-22/problems/0fc497feab7911ec.txt
