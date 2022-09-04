@@ -14,5 +14,4 @@ Vì tool được viết ra 1 cách rất cơ bản bằng python, nên đọc c
 6. Chọn file `example.html`, paste nội dung vừa copy vào đấy.
 7. Chạy file `download_test.py`. Chương trình sẽ hỏi tên của bài. Nếu để trống thì sẽ đặt tên là `data`, ngược lại sẽ tự động nén thành file `Tên file.zip`
 Các test sẽ nằm ở folder `downloaded/Tên file` và file `downloaded/Tên file.zip`.
-(nếu đã tồn tại folder này thì cần xoá trước khi chạy)
-![plot](imgs/img3.png)
+![plot](imgs/img4.png)
