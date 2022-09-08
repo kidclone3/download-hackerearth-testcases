@@ -25,7 +25,7 @@ with open('example.html', 'r') as f:
     print(output)
     
     # Simple exception to prevent making folder and file if download problem appear.
-    if (len(input) != len(output)):
+    if len(input) != len(output) or len(input) == 0:
         raise Exception("Input and output files have problem!")
 
     if len(filename) == 0:
