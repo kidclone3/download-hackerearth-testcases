@@ -5,7 +5,7 @@ Vì tool được viết ra 1 cách rất cơ bản bằng python, nên đọc c
 1. Cài python >= 3.9
 2. Dùng terminal mở đến thư mục này (dùng vscode luôn cho tiện). Chạy cáu lệnh sau:
 
-    `pip install requirements.txt`
+    `pip install -r requirements.txt`
 3. Vào bài dịch trên hackerearth, submit với code bất kì (để hiện ra tất cả test case). Click chuột trái, chọn *inspect element* (hoặc chỉ là *inspect* với Chrome).
 4. Tìm đến phần *input* như hình:
 ![plot](imgs/img1.png)
